@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h1>Creación de cuenta</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i><img src="./assets/imgs/facebook.png"></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i><img src="./assets/imgs/gmail.png"></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i><img src="./assets/imgs/linkedin.png"></a>
+                </div>
+                <span>O usa tu e-mail para registrarte</span>
+                <input type="text" placeholder="Nombre" />
+                <input type="email" placeholder="Correo electrónico" />
+                <input type="password" placeholder="Contraseña" />
+                <button>Sign Up</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <h1>Sign in</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i><img src="./assets/imgs/facebook.png"></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i><img src="./assets/imgs/gmail.png"></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i><img src="./assets/imgs/linkedin.png"></a>
+                </div>
+                <span>O use su cuenta</span>
+                <input type="email" placeholder="Correo electrónico" />
+                <input type="password" placeholder="Contraseña" />
+                <a href="#">¿Olvidaste tu contraseña?</a>
+                <a href="galery.html"><input type="button" value="Sign In"></a>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>¡Bienvenido de vuelta!</h1>
+                    <p>Para continuar conectado con nosotros es necesario que inicies sesión</p>
+                    <button class="ghost" id="signIn">Sign In</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>¡Hola!</h1>
+                    <p>Ingresa tus datos personales y comienza está travesía con nosotros.</p>
+                    <button class="ghost" id="signUp">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
